@@ -1,0 +1,16 @@
+#include<stdio.h>
+  
+int main()
+{
+    int totaldays,months,days;
+
+    printf("Enter total days : \n");
+    scanf("%d", &totaldays);
+    months=totaldays/30;
+    days=totaldays%30;
+
+      
+    printf("%d\n%d",months,days);
+      
+    return 0;
+}
