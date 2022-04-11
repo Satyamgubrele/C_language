@@ -1,0 +1,22 @@
+#include<stdio.h>
+int fact(int x);
+void main()
+{
+int a,res;
+printf("enter a no");
+scanf("%d",&a);
+res=fact(a);
+printf("%d",res);
+
+}
+int fact(int x)
+{
+int i;
+int facto=1;
+for(i=x;i>=1;i--)
+    facto=facto*i;
+
+    return(facto);
+}
+
+
