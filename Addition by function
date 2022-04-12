@@ -1,0 +1,85 @@
+
+#include<stdio.h>
+//function with no argument but a return value
+int add(void);
+void main()
+{  
+int y;
+
+y=add();
+printf("%d",y);
+
+
+}
+int add(void)
+{
+    int a,b,sum;
+    scanf("%d%d",&a,&b);
+     sum=a+b;
+    return(sum);
+    
+}
+
+
+
+
+
+
+
+
+//fun with argumnts and return value
+/*int sum(int x,int y);
+void main()
+{
+    
+    int a,b,res;
+    printf("enter nos\n");
+    scanf("%d%d",&a,&b);
+
+    res=sum(a,b);
+    printf("%d",res);
+
+}
+int sum(int x,int y)
+{
+int z;
+z=x+y;
+return (z);
+
+}*/
+
+
+//function with argumnts and no return value
+/*void sum(int,int);
+void main()
+{
+sum(5,10);
+
+}
+void sum(int x,int y)
+{
+int sum;
+sum=x+y;
+printf("sum = %d",sum);
+
+}*/
+
+
+
+
+
+
+//function with no arguments and no return values
+/*
+void main()
+{
+sum();
+
+}
+void sum()
+{
+int a,b,sum;
+scanf("%d%d",&a,&b);
+sum=a+b;
+printf("sum=%d",sum);
+}*/
