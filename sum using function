@@ -1,0 +1,22 @@
+#include<stdio.h>
+#include<conio.h>
+int add(int x, int y)
+{
+int res;
+res=x+y;
+return res;
+
+}
+void main()
+{
+   
+   int a,b,res;
+   printf("enter two values");
+   scanf("%d%d",&a,&b);
+   res=add(a,b);
+   printf("sum=%d",res);
+  
+    }
+    
+
+
