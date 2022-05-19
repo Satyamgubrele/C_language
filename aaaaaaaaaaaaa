@@ -1,5 +1,0 @@
-#include <stdio.h>  
-int main() {  
-printf("reader is a fool \n");  
-return 0;  
-}  
